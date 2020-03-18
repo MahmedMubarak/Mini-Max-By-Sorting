@@ -4,7 +4,7 @@
 int main()
 {
     // define the array
-    int arr[5] , h = 0 , min = 0 , max = 0 ;
+    int arr[5] , h = 0 ; long int min = 0 , max = 0 ;
     // get numbers frim the user
     printf(" please enter your five numbers :   \n");
     for(int i = 0 ; i < 5 ; i++)
@@ -50,6 +50,6 @@ int main()
          max += arr[i];
      }
      // print the result
-     printf("%d %d", min,max);
+     printf("%lu %lu", min,max);
     return 0 ;
 }
